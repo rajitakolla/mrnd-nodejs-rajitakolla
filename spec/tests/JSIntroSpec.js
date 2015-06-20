@@ -67,4 +67,12 @@ describe("JSIntro Test Suite", function(){
 			expect(str).toEqual("a");
 		});
 	});
+	describe("JSIntro-ReverseArrayOfStrings", function(){
+
+		it("", function(){
+
+			var str = JSIntro.ReverseArrayOfStrings(["abc","efg"]);
+			expect(str).toEqual(["cba","gfe"]);
+		});
+	});
 });
